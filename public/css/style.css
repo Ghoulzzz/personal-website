@@ -1,0 +1,111 @@
+@font-face {
+	src: url(fonts/HarmoniaSansProCyr-Regular.ttf);
+	font-family: KevinRegular;
+}
+
+* {
+	box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	display: block;
+	font-size: 18px;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+	display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+	width: 100vw;
+	height: 3000px;
+}
+
+.content {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+    height: 100%;
+    max-width: 1000px;
+	font-family: KevinRegular;
+}
+
+.navbar {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 75px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.contact {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.github, .discord {
+	padding: 0px 10px;
+	font-size: 18px;
+}
+
+.github:hover, .discord:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+}
+
+.centercontact {
+    color: white;
+}
+
+.welcome {
+	display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.welcomecontainer {
+	display: flex;
+    flex-direction: column;
+}
+
+.welcometext {
+	display: flex;
+	flex-direction: column;
+}
+
+.welcomekevin {
+	font-size: 90px;
+	padding-left: 10px;
+}
+
+.welcomewebsite {
+    font-size: 20px;
+	padding-left: 15px;
+}
