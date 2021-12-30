@@ -1,4 +1,4 @@
-This is a [Node.js](https://nodejs.org/en/) project.
+This is a [Node.js](https://nodejs.org/en/) & [Express.js](https://expressjs.com/) project.
 
 ## Getting Started
 
