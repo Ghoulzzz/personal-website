@@ -10,6 +10,8 @@
 
 body {
 	margin: 0;
+    background-color: white;
+    color: black;
 }
 
 p {
@@ -18,8 +20,16 @@ p {
 }
 
 a, a:visited, a:hover, a:active {
-    color: inherit;
+    all: unset;
+    cursor: pointer;
     text-decoration: none;
+    transition: all 0.75s ease-in;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    border: none;
 }
 
 .wrapper {
@@ -50,6 +60,7 @@ a, a:visited, a:hover, a:active {
     z-index: 1;
     padding: 10px;
     background: transparent;
+    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     position: sticky;
     -webkit-box-pack: justify;
@@ -68,18 +79,14 @@ a, a:visited, a:hover, a:active {
     align-items: center;
 }
 
-.github, .discord {
+.github, .linkedin {
 	padding: 0px 10px;
 	font-size: 18px;
 }
 
-.github:hover, .discord:hover {
+.github:hover, .linkedin:hover {
     text-decoration-line: underline;
     text-underline-offset: 4px;
-}
-
-.centercontact {
-    color: white;
 }
 
 .welcome {
