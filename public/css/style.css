@@ -116,3 +116,7 @@ button {
     font-size: 20px;
 	padding-left: 15px;
 }
+
+#nightmodebutton {
+    padding-right: 15px;
+}
