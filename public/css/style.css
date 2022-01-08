@@ -23,7 +23,7 @@ a, a:visited, a:hover, a:active {
     all: unset;
     cursor: pointer;
     text-decoration: none;
-    transition: all 0.75s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 button {
@@ -38,7 +38,6 @@ button {
     -webkit-box-align: center;
     align-items: center;
 	width: 100vw;
-	height: 3000px;
 }
 
 .content {
@@ -79,7 +78,7 @@ button {
     align-items: center;
 }
 
-.github, .linkedin {
+.github, .linkedin, .projects {
 	padding: 0px 10px;
 	font-size: 18px;
 }
@@ -115,6 +114,152 @@ button {
 .welcomewebsite {
     font-size: 20px;
 	padding-left: 15px;
+}
+
+.projects_display {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+#projectstitle {
+    font-size: 50px;
+}
+
+.break {
+    height: 50px;
+}
+
+.projectcontainer {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.projectmywebsite {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_title {
+    font-size: 25px;
+}
+
+.project_preview {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .project_preview {
+        -webkit-box-align: center;
+        align-items: center;
+    }
+}
+
+#preview_image {
+    border: 3px solid;
+    border-radius: 5px;
+    height: 360px;
+    width: 640px;
+}
+
+@media (max-width: 700px) {
+    #preview_image {
+        height: 225px;
+        width: 400px;
+    }
+}
+
+.programming_languages {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .programming_languages {
+        flex-direction: column;
+    }
+}
+
+.language_container {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.javascript {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(240, 219, 79);
+}
+
+.node_js {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(104, 160, 99); 
+}
+
+.express_js {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255,105,180); 
+}
+
+.html {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(227, 76, 38); 
+}
+
+.css {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(41, 101, 241); 
+}
+
+.pug_js {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(196, 164, 132);   
+}
+
+.mongodb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(77, 179, 61);   
+}
+
+.c_language {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(64, 102, 224);   
+}
+
+.project_desc {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .project_desc {
+        padding-left: 25px;
+        padding-right: 15px;
+    }
 }
 
 #nightmodebutton {
